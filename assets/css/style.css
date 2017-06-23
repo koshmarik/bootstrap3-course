@@ -79,3 +79,13 @@ footer>a:hover {
 	color: #fff;
 }
 
+.fragment-block img {
+	width: 50%;
+	margin-bottom: 5%;
+	border: solid 5px #342338;
+}
+
+.fragment-block {
+	text-align: center;
+}
+
