@@ -72,17 +72,6 @@ html, body {
 	height: 100%;
 }
 
-footer {
-	color: #7c51e0;
-	background: #342338;
-	padding: 17px 0 17px 0;
-	border-top: 1px solid #000;
-	text-align: right;
-}
-
-footer>a:hover {
-	color: #fff;
-}
 
 .fragment-block img {
 	width: 70%;
@@ -104,4 +93,44 @@ footer>a:hover {
 .margin-8 {
 	margin-top: 8%;
 }
+
+.panel {
+	border: none;
+}
+
+.panel-body {
+	background-color: #e9e4f5;
+}
+
+.panel-info>.panel-heading {
+	background-color: #c5b4ed;
+	border-color: transparent;
+	color: #342338;
+}
+
+.sidebar-header {
+	font-size: 110%;
+	letter-spacing: 2px;
+}
+
+.input-lg {
+	font-size: 14px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+footer {
+	color: #7c51e0;
+	background: #342338;
+	padding: 17px 0 17px 0;
+	border-top: 1px solid #000;
+	text-align: right;
+}
+
+footer>a:hover {
+	color: #fff;
+}
+
 
