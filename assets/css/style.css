@@ -59,6 +59,11 @@
 	}
 }
 
+.clear {
+	clear: both;
+	height: 60px;
+}
+
 .wrapper {
 	min-height: 100%;
 }
@@ -80,12 +85,23 @@ footer>a:hover {
 }
 
 .fragment-block img {
-	width: 50%;
+	width: 70%;
+	display: block;
+	margin: auto;
 	margin-bottom: 5%;
-	border: solid 5px #342338;
+	border: solid 2px #342338;
 }
 
 .fragment-block {
 	text-align: center;
+}
+
+.fragment-label {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8 {
+	margin-top: 8%;
 }
 
