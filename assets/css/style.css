@@ -131,6 +131,11 @@ html, body {
 	background-color: #342338;
 }
 
+.btn-info  {
+	background-color: #483080;
+	border-color: transparent;
+}
+
 footer {
 	color: #7c51e0;
 	background: #342338;
