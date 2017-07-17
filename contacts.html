@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap course</title>
+    <title>Contacts</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -42,8 +42,8 @@
 						<ul class="nav nav-pills">
 							<li><a href="index.html">Main</a></li>
 							<li><a href="css_page.html">CSS</a></li>
-							<li><a href="">Components</a></li>
-							<li><a href="">Templates</a></li>
+							<li><a href="components.html">Components</a></li>
+							<li><a href="templates.html">Templates</a></li>
 							<li class="active"><a href="">Contacts</a></li>
 						</ul>
 					</div>
@@ -70,6 +70,26 @@
                         </div>
                     </form>
 
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Ошибка</h4>
+                          </div>
+                          <div class="modal-body">
+                            В данный момент почтовый сервер недоступен. Просим извинения за неудобства
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
                     
                     <h3>Предложения по работе сайта</h3>
                     <hr>
@@ -83,7 +103,7 @@
                         <div class="form-group">
                             <textarea class="form-control" rows="5"></textarea>
                         </div>
-                        <button class="btn btn-info pull-right" type="submit">Send</button>
+                        <button class="btn btn-info pull-right" type="button" data-toggle="modal" data-target="#myModal">Send</button>
                     </form>
 
                     <div class="margin-8 clear"></div>
